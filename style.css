@@ -1,0 +1,99 @@
+.heading{
+            text-align: center;
+            
+font-family: "Playfair Display", serif;
+  
+  line-height:28px ;
+  font-style: normal;
+  padding: 10px;
+  border: 1px solid #d2d7e7;;
+  
+  background: #F3F4F7;
+     
+  border-radius: 20px;
+}
+    .more-infor {
+        line-height: 28px;
+        font-size:18px;
+        justify-content: space-between;
+        display: flex;
+        padding: 10px ;
+        border: 1px solid #d2d7e7;;
+ 
+        background: #F3F4F7;
+        
+        border-radius: 10px;
+        margin:5px  ;
+     } 
+     .infor{
+        padding: 5px;
+        border-radius: 5px;
+     }
+     .infor:hover{
+       background: #c5c6cc;
+     }
+     img{
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+        border-radius: 20px;
+     }     
+     .notes{
+        
+    font-size: 17px;
+    line-height: 1.8;
+    color: #444;
+    text-align: justify;      /* aligns text evenly */
+    letter-spacing: 0.5px;    /* small spacing between letters */
+}
+
+     
+        
+.container{
+    max-width: 800px;
+    padding: 40px;
+    display: block;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+button{
+
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: #2cb1da;
+    transition: all 200ms ease-in-out;
+    box-shadow: 20px 20px 20px  rgb(88, 88, 116);
+    display: block;
+    margin: 20px auto;
+}
+button:hover{
+    background:hsl(150, 34%, 75%);
+    cursor: pointer;
+
+}
+
+
+h2,h3,h4,h5,h6
+{
+
+    font-size: 48px;
+        line-height: 46px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+body
+       {
+        background: #89b2be;
+       } 
+       li{font-size: 17px;
+    line-height: 1.8;
+    color: #444;
+    text-align: justify;      /* aligns text evenly */
+    letter-spacing: 0.5px;
+        
+       }
+       ul{
+        padding: 10px;
+       }
